@@ -50,7 +50,7 @@ function App() {
     <div className="flex flex-col min-h-screen bg-neutral-50 font-sans">
       <Header onAddTask={handleAddTask} />
       
-      <main className="flex-1 p-4 md:p-6 overflow-visible">
+      <main className="flex p-4 md:p-6 overflow-visible">
         <div className="max-w-7xl mx-auto h-full">
           <Board onAddTask={handleAddTask} />
         </div>
